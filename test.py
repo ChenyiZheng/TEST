@@ -11,6 +11,9 @@ a = torch.tensor([[0, 0, 0, 0, 0],
               [1, 0, 0, 0, 0]])
 b = torch.tensor([[2, 2, 2, 2, 2],
               [3, 3, 3, 3, 3]])
+
+# add a test comment
+
 step1 = a*b
 print(step1)
 out = torch.einsum('ij,ij->i', a, b)
